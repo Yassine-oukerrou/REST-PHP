@@ -25,4 +25,8 @@ Route::get('/food', function () {
 
     return view('food', ['foods' => $foods]);
 });
+//Route::get('/food', function () {
+
+   /// return view('food');
+//});
 
