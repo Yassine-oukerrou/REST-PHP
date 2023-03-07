@@ -16,3 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/nouveau-plat', function () {
+    return view('nouveau-plat');
+});
+Route::post('/plats', [PlatController::class, 'store']);
+Route::get('/food', function () {
+    //-----$foods = App\Models\Food::all();
+
+    return view('food', ['foods' => $foods]);
+});
+

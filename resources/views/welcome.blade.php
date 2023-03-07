@@ -128,5 +128,8 @@
                 </div>
             </div>
         </div>
+        
+        <h2>/food</h2>
+        <h2>/nouveau-plat</h2> 
     </body>
 </html>
